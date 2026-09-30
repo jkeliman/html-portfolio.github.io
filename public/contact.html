@@ -42,6 +42,66 @@
           <span>Location</span><strong>Majuro, Marshall Islands</strong>
         </div>
       </section>
+      <form
+        class="contact-form"
+        id="contact-form"
+        novalidate
+        aria-labelledby="contact-form-title"
+      >
+        <h2 id="contact-form-title">Send a message</h2>
+        <div class="field">
+          <label for="cf-name">Name</label>
+          <input
+            id="cf-name"
+            name="name"
+            type="text"
+            autocomplete="name"
+            maxlength="100"
+            required
+         >
+        </div>
+        <div class="field">
+          <label for="cf-email">Email</label>
+          <input
+            id="cf-email"
+            name="email"
+            type="email"
+            autocomplete="email"
+            maxlength="200"
+            required
+         >
+        </div>
+        <div class="field">
+          <label for="cf-message">Message</label>
+          <textarea
+            id="cf-message"
+            name="message"
+            rows="6"
+            minlength="10"
+            maxlength="2000"
+            required
+          ></textarea>
+        </div>
+        <div class="field-trap" aria-hidden="true">
+          <label for="cf-website">Leave this field empty</label>
+          <input
+            id="cf-website"
+            name="website"
+            type="text"
+            tabindex="-1"
+            autocomplete="off"
+         >
+        </div>
+        <button class="button button-primary" type="submit">
+          Send message
+        </button>
+        <p
+          class="form-status"
+          id="form-status"
+          role="status"
+          aria-live="polite"
+        ></p>
+      </form>
       <a class="back-link" href="../index.html">← Back to home</a>
     </main>
     <footer>
@@ -50,5 +110,6 @@
       <p>© 2026</p>
     </footer>
     <script src="../menu.js" defer></script>
+    <script src="../contact.js" defer></script>
   </body>
 </html>
