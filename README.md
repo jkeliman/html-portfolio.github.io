@@ -15,4 +15,4 @@ Preview locally:
 python3 -m http.server 8000
 ```
 
-The site began as a project from "The Complete 2023 Web Development Bootcamp" on Udemy.
+The projects are from [The Complete Full-Stack Web Development Bootcamp](https://www.udemy.com/course/the-complete-web-development-bootcamp/) on Udemy, created by [its instructor](https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/).
